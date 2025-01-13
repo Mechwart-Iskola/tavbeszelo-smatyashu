@@ -1,5 +1,8 @@
 body {
   background-color: rgb(111, 111, 111);
+  background-image: url(phone-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 p {
@@ -16,6 +19,9 @@ p {
   margin-left: auto;
   margin-top: 40px;
   margin-right: auto;
+  background-image: url(phone-cord.png);
+  background-repeat: repeat-y;
+  background-color: rgba(255, 255, 255, 0.8)
 }
 
 li {
@@ -25,4 +31,23 @@ li {
 a {
   text-decoration: none;
   color: black;
+}
+
+span {
+  color: #0000ff
+}
+
+#kep {
+  float: right;
+  height: 250px;
+}
+
+h1,h2{
+  margin-left: 100px;
+  font-style: italic;
+  font-variant:small-caps
+}
+
+a:hover{
+  color: #ff0000;
 }
